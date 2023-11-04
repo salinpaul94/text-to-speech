@@ -26,3 +26,22 @@
 .hero h1 span {
   color: #ff2963;
 }
+
+.hero textarea {
+  width: 600px;
+  height: 250px;
+  background: #403d84;
+  color: #fff;
+  font-size: 15px;
+  border: 0;
+  outline: 0;
+  padding: 20px;
+  border-radius: 10px;
+  resize: none;
+  margin-bottom: 30px;
+}
+
+.hero textarea::placeholder {
+  font-size: 16px;
+  color: #ddd;
+}
