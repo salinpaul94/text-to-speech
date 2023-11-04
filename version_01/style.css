@@ -62,4 +62,11 @@
   border: 0;
   outline: 0;
   cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.row button img {
+  width: 16px;
+  margin-right: 16px;
 }
